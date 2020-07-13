@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="getting started" POSITION="right" ID="ID_934635916" CREATED="1594671153773" MODIFIED="1594672051654">
+<node TEXT="Getting started" POSITION="right" ID="ID_934635916" CREATED="1594671153773" MODIFIED="1594672184086">
 <icon BUILTIN="full-1"/>
 <edge COLOR="#ff00ff"/>
 <font BOLD="true"/>
@@ -76,7 +76,7 @@
 <node TEXT="download and start using" ID="ID_1559359453" CREATED="1594671131854" MODIFIED="1594671579007" LINK="https://sourceforge.net/projects/freeplane/"/>
 </node>
 </node>
-<node TEXT="convert" POSITION="right" ID="ID_1937142717" CREATED="1594670897078" MODIFIED="1594672052823">
+<node TEXT="Convert to html" POSITION="right" ID="ID_1937142717" CREATED="1594670897078" MODIFIED="1594672191141">
 <icon BUILTIN="full-2"/>
 <edge COLOR="#00ff00"/>
 <font BOLD="true"/>
@@ -95,8 +95,8 @@
 </node>
 </node>
 <node TEXT="spux" ID="ID_332590690" CREATED="1594670999296" MODIFIED="1594671000762">
-<node TEXT="creates a web page from json" ID="ID_607844233" CREATED="1594671001858" MODIFIED="1594671028997">
-<node TEXT="view uses freeplane.js" ID="ID_528084374" CREATED="1594671079093" MODIFIED="1594671819298"/>
+<node TEXT="creates a single page app from thejson" ID="ID_607844233" CREATED="1594671001858" MODIFIED="1594672222158">
+<node TEXT="uses freeplane.js" ID="ID_528084374" CREATED="1594671079093" MODIFIED="1594672228586"/>
 </node>
 <node TEXT="full command:" ID="ID_214454290" CREATED="1594671902610" MODIFIED="1594671905789"/>
 <node TEXT="xml2json index.mm | spux --view freeplane &gt; index.html" ID="ID_1437202419" CREATED="1594671037781" MODIFIED="1594671768226">
@@ -105,7 +105,7 @@
 </node>
 </node>
 </node>
-<node TEXT="publish" POSITION="right" ID="ID_1715564617" CREATED="1594671188831" MODIFIED="1594672054202">
+<node TEXT="Publish App" POSITION="right" ID="ID_1715564617" CREATED="1594671188831" MODIFIED="1594672199903">
 <icon BUILTIN="full-3"/>
 <edge COLOR="#00ffff"/>
 <font BOLD="true"/>
