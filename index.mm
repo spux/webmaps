@@ -95,7 +95,8 @@
 <node TEXT="creates a single page app from the json" ID="ID_607844233" CREATED="1594671001858" MODIFIED="1594672450912">
 <node TEXT="uses freeplane.js" ID="ID_528084374" CREATED="1594671079093" MODIFIED="1594672228586"/>
 </node>
-<node TEXT="full command:" ID="ID_214454290" CREATED="1594671902610" MODIFIED="1594671905789"/>
+</node>
+<node TEXT="full command:" ID="ID_214454290" CREATED="1594671902610" MODIFIED="1594671905789">
 <node TEXT="xml2json index.mm | spux --view freeplane &gt; index.html" ID="ID_1437202419" CREATED="1594671037781" MODIFIED="1594671768226">
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
