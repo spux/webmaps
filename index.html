@@ -193,27 +193,185 @@
         },
         {
           "NAME": "AutomaticEdgeColor",
-          "COUNTER": "1",
+          "COUNTER": "7",
           "RULE": "ON_BRANCH_CREATION"
         }
       ],
-      "node": {
-        "TEXT": "todo",
-        "POSITION": "right",
-        "ID": "ID_1613904653",
-        "CREATED": "1594667242987",
-        "MODIFIED": "1594667245086",
-        "$t": "",
-        "edge": {
-          "COLOR": "#ff0000"
+      "node": [
+        {
+          "TEXT": "getting started",
+          "POSITION": "right",
+          "ID": "ID_934635916",
+          "CREATED": "1594671153773",
+          "MODIFIED": "1594671180706",
+          "$t": "",
+          "icon": {
+            "BUILTIN": "full-1"
+          },
+          "edge": {
+            "COLOR": "#ff00ff"
+          },
+          "node": {
+            "TEXT": "freeplane",
+            "ID": "ID_1032494420",
+            "CREATED": "1594670904090",
+            "MODIFIED": "1594670960728",
+            "LINK": "https://www.freeplane.org/",
+            "$t": "",
+            "node": [
+              {
+                "TEXT": "desktop app",
+                "ID": "ID_1769440044",
+                "CREATED": "1594670935805",
+                "MODIFIED": "1594670976867"
+              },
+              {
+                "TEXT": "used to make a mindmap",
+                "ID": "ID_1403590370",
+                "CREATED": "1594670977840",
+                "MODIFIED": "1594670981700"
+              },
+              {
+                "TEXT": "saved in .mm xml format",
+                "ID": "ID_76605307",
+                "CREATED": "1594670982422",
+                "MODIFIED": "1594670990401"
+              },
+              {
+                "TEXT": "download and start using",
+                "ID": "ID_1559359453",
+                "CREATED": "1594671131854",
+                "MODIFIED": "1594671136801"
+              }
+            ]
+          }
         },
-        "node": {
-          "TEXT": "getting started guide",
-          "ID": "ID_1609398492",
-          "CREATED": "1594667257850",
-          "MODIFIED": "1594667265998"
+        {
+          "TEXT": "convert",
+          "POSITION": "right",
+          "ID": "ID_1937142717",
+          "CREATED": "1594670897078",
+          "MODIFIED": "1594671184807",
+          "$t": "",
+          "icon": {
+            "BUILTIN": "full-2"
+          },
+          "edge": {
+            "COLOR": "#00ff00"
+          },
+          "node": [
+            {
+              "TEXT": "xml2json",
+              "ID": "ID_50908207",
+              "CREATED": "1594670911468",
+              "MODIFIED": "1594670934362",
+              "$t": "",
+              "node": [
+                {
+                  "TEXT": "converts from xml to json",
+                  "ID": "ID_155493418",
+                  "CREATED": "1594670992132",
+                  "MODIFIED": "1594670998213"
+                },
+                {
+                  "TEXT": "sudo apt install xml2json",
+                  "ID": "ID_551496320",
+                  "CREATED": "1594671112783",
+                  "MODIFIED": "1594671123733",
+                  "font": {
+                    "BOLD": "true"
+                  }
+                },
+                {
+                  "TEXT": "xml2json index.mm > index.json",
+                  "ID": "ID_874120748",
+                  "CREATED": "1594671037781",
+                  "MODIFIED": "1594671055441"
+                }
+              ]
+            },
+            {
+              "TEXT": "spux",
+              "ID": "ID_332590690",
+              "CREATED": "1594670999296",
+              "MODIFIED": "1594671000762",
+              "$t": "",
+              "node": [
+                {
+                  "TEXT": "creates a web page from json",
+                  "ID": "ID_607844233",
+                  "CREATED": "1594671001858",
+                  "MODIFIED": "1594671028997"
+                },
+                {
+                  "TEXT": "npm install -g spux",
+                  "ID": "ID_1482245704",
+                  "CREATED": "1594671104181",
+                  "MODIFIED": "1594671127859",
+                  "font": {
+                    "BOLD": "true"
+                  }
+                },
+                {
+                  "TEXT": "xml2json index.mm > index.json | spux --view freeplane",
+                  "ID": "ID_1437202419",
+                  "CREATED": "1594671037781",
+                  "MODIFIED": "1594671128547",
+                  "font": {
+                    "BOLD": "true"
+                  }
+                },
+                {
+                  "TEXT": "view freeplane.js",
+                  "ID": "ID_528084374",
+                  "CREATED": "1594671079093",
+                  "MODIFIED": "1594671086562"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "TEXT": "publish",
+          "POSITION": "right",
+          "ID": "ID_1715564617",
+          "CREATED": "1594671188831",
+          "MODIFIED": "1594671201705",
+          "$t": "",
+          "icon": {
+            "BUILTIN": "full-3"
+          },
+          "edge": {
+            "COLOR": "#00ffff"
+          },
+          "node": {
+            "TEXT": "publish the html page on the web or on your file system",
+            "ID": "ID_1360897295",
+            "CREATED": "1594671203006",
+            "MODIFIED": "1594671217602"
+          }
+        },
+        {
+          "TEXT": "future work",
+          "POSITION": "left",
+          "ID": "ID_1092550163",
+          "CREATED": "1594671225440",
+          "MODIFIED": "1594671241032",
+          "$t": "",
+          "icon": {
+            "BUILTIN": "idea"
+          },
+          "edge": {
+            "COLOR": "#00007c"
+          },
+          "node": {
+            "TEXT": "make the web version read / write",
+            "ID": "ID_1464733782",
+            "CREATED": "1594671242057",
+            "MODIFIED": "1594671269325"
+          }
         }
-      }
+      ]
     }
   }
 }</script>
