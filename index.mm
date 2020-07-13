@@ -65,9 +65,10 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="getting started" POSITION="right" ID="ID_934635916" CREATED="1594671153773" MODIFIED="1594671180706">
+<node TEXT="getting started" POSITION="right" ID="ID_934635916" CREATED="1594671153773" MODIFIED="1594672051654">
 <icon BUILTIN="full-1"/>
 <edge COLOR="#ff00ff"/>
+<font BOLD="true"/>
 <node TEXT="freeplane" ID="ID_1032494420" CREATED="1594670904090" MODIFIED="1594670960728" LINK="https://www.freeplane.org/">
 <node TEXT="desktop app" ID="ID_1769440044" CREATED="1594670935805" MODIFIED="1594670976867"/>
 <node TEXT="used to make a mindmap" ID="ID_1403590370" CREATED="1594670977840" MODIFIED="1594670981700"/>
@@ -75,9 +76,10 @@
 <node TEXT="download and start using" ID="ID_1559359453" CREATED="1594671131854" MODIFIED="1594671579007" LINK="https://sourceforge.net/projects/freeplane/"/>
 </node>
 </node>
-<node TEXT="convert" POSITION="right" ID="ID_1937142717" CREATED="1594670897078" MODIFIED="1594671184807">
+<node TEXT="convert" POSITION="right" ID="ID_1937142717" CREATED="1594670897078" MODIFIED="1594672052823">
 <icon BUILTIN="full-2"/>
 <edge COLOR="#00ff00"/>
+<font BOLD="true"/>
 <node TEXT="install" ID="ID_1544922306" CREATED="1594671878163" MODIFIED="1594671881466">
 <node TEXT="npm install -g xml2json" ID="ID_841174287" CREATED="1594671104181" MODIFIED="1594671873287">
 <font BOLD="true"/>
@@ -103,9 +105,10 @@
 </node>
 </node>
 </node>
-<node TEXT="publish" POSITION="right" ID="ID_1715564617" CREATED="1594671188831" MODIFIED="1594671201705">
+<node TEXT="publish" POSITION="right" ID="ID_1715564617" CREATED="1594671188831" MODIFIED="1594672054202">
 <icon BUILTIN="full-3"/>
 <edge COLOR="#00ffff"/>
+<font BOLD="true"/>
 <node TEXT="publish the html page on the web or on your file system" ID="ID_1360897295" CREATED="1594671203006" MODIFIED="1594671217602"/>
 </node>
 <node TEXT="future work" POSITION="left" ID="ID_1092550163" CREATED="1594671225440" MODIFIED="1594671241032">
