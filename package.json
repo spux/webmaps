@@ -1,0 +1,18 @@
+{
+  "name": "webmaps",
+  "version": "0.0.1",
+  "description": "webmaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spux/webmaps.git"
+  },
+  "author": "Melvin Carvalho",
+  "bugs": {
+    "url": "https://github.com/spux/webmaps/issues"
+  },
+  "homepage": "https://github.com/spux/webmaps#readme"
+}
